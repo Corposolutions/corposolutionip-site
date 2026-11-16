@@ -2,7 +2,7 @@
    Remplace l'envoi WordPress/Divi par Formspree.
    Pour activer : mettre l'adresse du formulaire Formspree ci-dessous. */
 (function () {
-  var FORM_ENDPOINT = ''; // ex. 'https://formspree.io/f/abcdwxyz'
+  var FORM_ENDPOINT = 'https://formspree.io/f/mkjrjkkd'; // ex. 'https://formspree.io/f/abcdwxyz'
   var MERCI = '/merci/';
 
   function val(form, name) {
