@@ -39,7 +39,7 @@
     if (missing.length) { showMsg(form, 'Veuillez remplir : ' + missing.join(', ') + '.', true); return; }
 
     if (!FORM_ENDPOINT) {
-      showMsg(form, 'Le formulaire est temporairement indisponible. Appelez-nous au 514 687-9998.', true);
+      showMsg(form, 'Le formulaire est temporairement indisponible. Appelez-nous au 438 476-2183.', true);
       return;
     }
     data._subject = 'Demande de soumission — corposolutionip.ca — ' + data['Nom'];
@@ -55,7 +55,7 @@
       throw new Error('HTTP ' + r.status);
     }).catch(function () {
       if (btn) { btn.disabled = false; btn.textContent = 'Soumettre'; }
-      showMsg(form, 'Oups, l\'envoi n\'a pas fonctionné. Réessayez ou appelez-nous au 514 687-9998.', true);
+      showMsg(form, 'Oups, l\'envoi n\'a pas fonctionné. Réessayez ou appelez-nous au 438 476-2183.', true);
     });
   }, true);
 })();
